@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,113 +8,142 @@
     <title>Podcast App</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
-  
+
 </head>
+
 <body>
 
     <!-- SECCION DEL HEADER -->
 
-<header class="site-header">
-    <div class="contenedor header-grid">
-        <div class="logo">
-            <img src="build/img/logo.svg" alt="logo podcast app">
+    <header class="site-header">
+        <div class="contenedor header-grid">
+            <div class="logo">
+                <img src="build/img/logo.svg" alt="logo podcast app">
+            </div>
+
+            <div class="contenido-header">
+                <h1>Tu Plataforma para publicar tus Podcast</h1>
+                <a href="#" class="boton-primario">Crear Cuenta</a>
+            </div>
         </div>
+    </header>
 
-        <div class="contenido-header">
-            <h1>Tu Plataforma para publicar tus Podcast</h1>
-            <a href="#" class="boton-primario">Crear Cuenta</a>
+    <!-- SECCION DE CREA TU PODCAST -->
+
+    <section class="contenedor seccion">
+        <div class="crea-grid">
+            <div class="imagen">
+                <img src="build/img/imagen_podcast.svg" alt="imagen podcast">
+            </div>
+            <div class="contenido">
+                <h2>Crea tu Podcast</h2>
+                <p>Nosotros lo distribuimos a las plataformas mas populares como Google Podcast, Spotify, Apple Podcast
+                    y Youtube.</p>
+            </div>
         </div>
-    </div>
-</header>
+    </section>
 
-<!-- SECCION DE CREA TU PODCAST -->
+    <!-- SECCION DE BENEFICIOS -->
+    <section class="beneficios seccion">
+        <div class="grid-beneficios contenedor">
+            <div class="contenido-beneficios">
+                <h2>Llega a miles y gana dinero</h2>
+                <p>Los podcast se han convertido en un medio de entretenimiento que cada dia gana mas seguidores, con
+                    temas variados puedes crear tu propio podcast, ser escuchada(o) por miles de personas y convertir tu
+                    pasion en un negocio.</p>
+            </div>
 
-<section class="contenedor seccion">
-    <div class="crea-grid">
-        <div class="imagen">
-            <img src="build/img/imagen_podcast.svg" alt="imagen podcast">
+            <div class="imagen">
+                <img src="build/img/podcast_cover.png" alt="imagen podcast">
+            </div>
+
         </div>
-        <div class="contenido">
-            <h2>Crea tu Podcast</h2>
-            <p>Nosotros lo distribuimos a las plataformas mas populares como Google Podcast, Spotify, Apple Podcast y Youtube.</p>
+    </section>
+
+
+    <!-- SECCION ESTADISTICAS -->
+
+    <section class="estadisticas seccion contenedor">
+        <h2>Estadisticas Detalladas</h2>
+        <p>Nosotros lo distribuimos a las plataformas mas populares como Google Podcast, Spotify, Apple Podcast y
+            Youtube</p>
+
+        <img src="build/img/grafica.svg" alt="grafica imagen">
+    </section>
+
+    <!-- SECCION PRECIOS -->
+
+    <section class="planes seccion">
+        <div class="contenedor">
+            <h2>Planes</h2>
+            <p class="descripcion">Inicia gratis, crece tu plan cuando sea necesario</p>
+
+            <div class="nuestros-planes">
+                <div class="plan inicio">
+                    <h3>Inicio</h3>
+                    <p class="precio">$2.99 Mes</p>
+                    <ul class="listado">
+                        <li>30 Episodios</li>
+                        <li>Estadisticas</li>
+                        <li>App para grabar</li>
+                    </ul>
+                    <a href="#" class="boton-plan">Suscribirme</a>
+                </div> <!--finaliza plan-->
+
+                <div class="plan negocio">
+                    <h3>Negocio</h3>
+                    <p class="precio">$6.99 Mes</p>
+                    <ul class="listado">
+                        <li> Episodios Ilimitados</li>
+                        <li> Todas las plataformas</li>
+                        <li>Estadisticas</li>
+                        <li>App para grabar</li>
+                        <li>Podcast Pagadosr</li>
+                    </ul>
+                    <a href="#" class="boton-plan">Suscribirme</a>
+                </div> <!--finaliza plan-->
+
+                <div class="plan pro">
+                    <h3>Pro</h3>
+                    <p class="precio">$4.99 Mes</p>
+                    <ul class="listado">
+                        <li>50 Episodios</li>
+                        <li>Estadisticas</li>
+                        <li>App para grabar</li>
+                    </ul>
+                    <a href="#" class="boton-plan">Suscribirme</a>
+                </div> <!--finaliza plan-->
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- SECCION DE BENEFICIOS -->
-<section class="beneficios seccion">
-    <div class="grid-beneficios contenedor">
-<div class="contenido-beneficios">
-    <h2>Llega a miles y gana dinero</h2>
-    <p>Los podcast se han convertido en un medio de entretenimiento que cada dia gana mas seguidores, con temas variados puedes crear tu propio podcast, ser escuchada(o) por miles de personas y convertir tu pasion en un negocio.</p>
-</div>
 
+    <!-- SECCION TESTIMONIALES -->
+<section class="contenedor seccion testimoniales"> 
 <div class="imagen">
-    <img src="build/img/podcast_cover.png" alt="imagen podcast">
+    <img src="build/img/app.jpg" alt="imagen app">
 </div>
 
+<div class="contenido">
+    <h2>Testimoniales</h2>
+
+    <div class="testimonial">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex atque ad corporis, omnis distinctio molestias, eligendi quidem beatae voluptates tempore recusandae.</p>
     </div>
-</section>
-
-
-<!-- SECCION ESTADISTICAS -->
-
-<section class="estadisticas seccion contenedor">
-    <h2>Estadisticas Detalladas</h2>
-    <p>Nosotros lo distribuimos a las plataformas mas populares como Google Podcast, Spotify, Apple Podcast y Youtube</p>
-
-    <img src="build/img/grafica.svg" alt="grafica imagen">
-</section>
-
-<!-- SECCION PRECIOS -->
-
-<section class="planes seccion">
-    <div class="contenedor">
-        <h2>Planes</h2>
-        <p class="descripcion">Inicia gratis, crece tu plan cuando sea necesario</p>
-
-        <div class="nuestros-planes">
-            <div class="plan inicio">
-                <h3>Inicio</h3>
-                <p class="precio">$2.99 Mes</p>
-                <ul class="listado">
-                    <li>30 Episodios</li>
-                    <li>Estadisticas</li>
-                    <li>App para grabar</li>
-                </ul>
-                <a href="#" class="boton-plan">Suscribirme</a>
-            </div> <!--finaliza plan-->
-            
-            <div class="plan negocio">
-                <h3>Negocio</h3>
-                <p class="precio">$6.99 Mes</p>
-                <ul class="listado">
-                    <li> Episodios Ilimitados</li>
-                    <li> Todas las plataformas</li>
-                    <li>Estadisticas</li>
-                    <li>App para grabar</li>
-                    <li>Podcast Pagadosr</li>
-                </ul>
-                <a href="#" class="boton-plan">Suscribirme</a>
-            </div> <!--finaliza plan-->
-            
-            <div class="plan pro">
-                <h3>Pro</h3>
-                <p class="precio">$4.99 Mes</p>
-                <ul class="listado">
-                    <li>50 Episodios</li>
-                    <li>Estadisticas</li>
-                    <li>App para grabar</li>
-                </ul>
-                <a href="#" class="boton-plan">Suscribirme</a>
-            </div> <!--finaliza plan-->
-            
-            
-        </div>
+    <div class="testimonial">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex atque ad corporis, omnis distinctio molestias, eligendi quidem beatae voluptates tempore recusandae.</p>
     </div>
+    <div class="testimonial">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex atque ad corporis, omnis distinctio molestias, eligendi quidem beatae voluptates tempore recusandae.</p>
+    </div>
+</div>
+
 </section>
+
+
 
 </body>
+
 </html>
